@@ -5,9 +5,13 @@
  *
  * Return: 0
  */
-int main(void)
+int main(int argc, char *argv[], char *envp[])
 {
-	printf("Hi betty!");
+	while (1)
+	{
+		printf("$ ");
+		read_line();
+	}
 
 	return (0);
 }

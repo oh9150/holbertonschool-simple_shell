@@ -8,4 +8,6 @@
 #include <sys/wait.h>
 #include <string.h>
 
+void read_line(void);
+
 #endif
